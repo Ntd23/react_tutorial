@@ -1,13 +1,10 @@
-// import logo from './logo.svg';
 import './App.css';
-
-import  {name, job} from "./constants/constant";
-console.log(name);
-console.log(job);
+import Product from './component/Product';
 function App() {
   return (
     <div className="App">
       <h1>Hello</h1>
+      <Product />
     </div>
   );
 }
